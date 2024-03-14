@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ConfettiAssetController</members>
+		<members>ConfettiAssetControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Account.CelebrationMsgShown__c</members>
+		<members>Contact.CelebrationMsgShown__c</members>
+		<members>Opportunity.CelebrationMsgShown__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Congrats</members>
+		<members>Congratulations</members>
+		<members>Done</members>
+		<members>ErrorMsg</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>confettiAsset</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>confettijs</members>
+		<name>StaticResource</name>
+	</types>
+	<version>55.0</version>
+</Package>

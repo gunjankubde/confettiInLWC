@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="celebrationType" type="String" label="celebrationType" description="Specify the type of Confetti. Available options are - 'Basic', 'Firework', 'Shower', 'Celebration', 'Burst'." datasource="Basic,Firework,Shower,Celebration,Burst" />
+            <property name="showCelebrationModal" type="Boolean" label="Show Celebration" description="Make this true if you want to show any message."/>
+            <property name="celebrationMessage" type="String" label="celebrationMessage" description="Please add the text you want to show during confetti."/>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
+            <property name="celebrationType" type="String" label="celebrationType" description="Specify the type of Confetti. Available options are - 'Basic', 'Firework', 'Shower', 'Celebration', 'Burst'." datasource="Basic,Firework,Shower,Celebration,Burst"/>
+            <property name="showCelebrationModal" type="Boolean" label="Show Celebration" description="Make this true if you want to show any message."/>
+            <property name="celebrationMessage" type="String" label="celebrationMessage" description="Please add the text you want to show during confetti."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
